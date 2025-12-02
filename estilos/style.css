@@ -69,12 +69,33 @@ form > div.campo {
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 .campo label {
     display: none;
+}
+
+.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: #5ac5c2;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-12px);
+    height: 100%;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.campo > input:focus-within {  
+    background-color: white;
 }
 
 form > input[type=submit] {
