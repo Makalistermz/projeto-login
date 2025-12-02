@@ -29,7 +29,6 @@ main {
     position: absolute;
     top: 50%;
     left: 500%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -40,6 +39,7 @@ main {
 
     transition: width .5s, height .5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #login > #imagens {
@@ -88,10 +88,10 @@ form > div.campo {
     background-color: #5ac5c2;
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-12px);
     height: 100%;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-12px);
 }
 
 .campo > input:focus-within {  
